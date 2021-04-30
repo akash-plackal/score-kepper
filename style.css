@@ -101,10 +101,15 @@ body {
 
 @media (orientation : portrait) {
 
-    img {
-        width:20rem;
+    .container {
+        width: 100%;
+        padding: none;
+        height: 150%;
     }
-    .button-div {
-        width: 25rem;
-    }
+     img {
+        width: 300px;
+    } 
+    /* .button-div {
+        width: fit-content;
+    } */ */
 }
