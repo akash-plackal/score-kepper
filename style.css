@@ -99,3 +99,12 @@ body {
     color: #d9534f;
 }
 
+@media (orientation : portrait) {
+
+    img {
+        width:20rem;
+    }
+    .button-div {
+        width: 25rem;
+    }
+}
