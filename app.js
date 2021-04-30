@@ -31,8 +31,8 @@ p2Btn.addEventListener('click', function () {
         p2Add += 1;
         if (p2Add === winningNumber) {
             gameOver = true;
-            p1score.classList.add('winner')
-            p2score.classList.add('loser')
+            p2score.classList.add('winner')
+            p1score.classList.add('loser')
         }
         p2score.textContent = p2Add;
     }
@@ -49,5 +49,7 @@ reset.addEventListener('click', function () {
     p1score.textContent = 0;
     p2score.textContent = 0;
     p1score.classList.remove('winner')
+    p2score.classList.remove('winner')
+    p1score.classList.remove('loser')
     p2score.classList.remove('loser')
 })

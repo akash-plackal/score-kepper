@@ -22,6 +22,15 @@ body {
     
 }
 
+.img-div {
+    height: 27rem;
+    margin-right: 1rem;
+}
+
+.img-div img {
+    height: 27rem;
+}
+
  .center-div {
     width: 100%;
     display: flex;
@@ -89,3 +98,4 @@ body {
 .loser {
     color: #d9534f;
 }
+
